@@ -51,7 +51,7 @@
     "@dcloudio/uni-mp-xhs": "3.0.0-4030620241128001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-4030620241128001",
     "sass": "1.87.0",
-    "vue": "3.5.13"
+    "vue": "3.4.21"
   },
   "devDependencies": {
     "@dcloudio/types": "3.4.15",
@@ -59,10 +59,10 @@
     "@dcloudio/uni-cli-shared": "3.0.0-4030620241128001",
     "@dcloudio/uni-stacktracey": "3.0.0-4030620241128001",
     "@dcloudio/vite-plugin-uni": "3.0.0-4030620241128001",
-    "@vue/runtime-core": "3.5.13",
+    "@vue/runtime-core": "3.4.21",
     "@vue/tsconfig": "0.7.0",
     "typescript": "5.8.3",
-    "vite": "6.3.5",
+    "vite": "5.2.8",
     "vue-tsc": "1.0.24"
   }
 }

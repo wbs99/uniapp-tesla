@@ -2,6 +2,8 @@
 
 1. 安装依赖
 ```bash
+rm -rf node_modules pnpm-lock.yaml
+pnpm config set save-prefix=''
 pnpm i
 ```
 
