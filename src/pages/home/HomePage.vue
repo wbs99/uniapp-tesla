@@ -10,7 +10,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const title = ref('Hello11333')
+const title = ref('首页')
 </script>
 
 <style lang="scss">
