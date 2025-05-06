@@ -1,8 +1,11 @@
 <template>
-  <view class="content">
-    <image class="logo" src="/static/logo.png" />
-    <view class="text-area">
-      <text class="title">{{ title }}</text>
+  <view class="flex flex-col items-center justify-center">
+    <image class="w-[200rpx] h-[200rpx] mt-[200rpx] mx-auto mb-[50rpx]" src="/static/logo.png" />
+    <view class="flex justify-center border border-solid border-red-500 px-2">
+      <text class="text-[36rpx] text-red-500">{{ title }}</text>
+    </view>
+    <view class="mt-8 p-4 bg-blue-500 rounded-lg">
+      <text class="text-white font-bold">Tailwind CSS 已成功集成!</text>
     </view>
   </view>
 </template>
@@ -13,30 +16,6 @@ import { ref } from 'vue'
 const title = ref('首页')
 </script>
 
-<style lang="scss">
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin-top: 200rpx;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50rpx;
-}
-
-.text-area {
-  display: flex;
-  justify-content: center;
-}
-
-.title {
-  font-size: 36rpx;
-  color: #8f8f94;
-}
+<style>
+/* 所有样式现在使用Tailwind CSS类 */
 </style>
