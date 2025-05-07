@@ -11,11 +11,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-
 const title = ref('首页')
 </script>
 
 <style>
-/* 所有样式现在使用Tailwind CSS类 */
+
 </style>
