@@ -12,13 +12,13 @@ pnpm i
 3. 运行
 
 ```bash
-pnpm run dev:mp-weixin
+pnpm dev:mp-weixin
 ```
 用微信开发者工具打开 `dist\dev\mp-weixin\app.wxss`
 
 # 部署
 
 ```bash
-pnpm run build:mp-weixin
+pnpm build:mp-weixin
 ```
 用微信开发者工具打开 `dist\build\mp-weixin\app.wxss`

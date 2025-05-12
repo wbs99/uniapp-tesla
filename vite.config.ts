@@ -1,8 +1,8 @@
-import { defineConfig } from "vite";
-import uni from "@dcloudio/vite-plugin-uni";
-import { UnifiedViteWeappTailwindcssPlugin } from 'weapp-tailwindcss/vite';
-import tailwindcss from '@tailwindcss/postcss';
-import AutoImport from 'unplugin-auto-import/vite';
+import uni from '@dcloudio/vite-plugin-uni'
+import tailwindcss from '@tailwindcss/postcss'
+import AutoImport from 'unplugin-auto-import/vite'
+import { defineConfig } from 'vite'
+import { UnifiedViteWeappTailwindcssPlugin } from 'weapp-tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -29,4 +29,4 @@ export default defineConfig({
       ]
     }
   }
-});
+})
