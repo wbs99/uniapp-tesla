@@ -1,6 +1,5 @@
 import { navigateTo } from '@/utils/uniFunction'
 import { defineStore } from 'pinia'
-import { reactive, ref } from 'vue'
 
 export const useUserStore = defineStore(
   'userStore',
@@ -16,14 +15,14 @@ export const useUserStore = defineStore(
     }
 
     const phone = ref('')
-    const setPhone = (phone: string) => {
-      uni.setStorageSync(Phone_STORAGE_KEY, phone)
-    }
+    // const setPhone = (phone: string) => {
+    //   uni.setStorageSync(Phone_STORAGE_KEY, phone)
+    // }
     const getPhone = () => uni.getStorageSync(Phone_STORAGE_KEY)
 
-    const setToken = (token: string) => {
-      uni.setStorageSync(TOKEN_STORAGE_KEY, token)
-    }
+    // const setToken = (token: string) => {
+    //   uni.setStorageSync(TOKEN_STORAGE_KEY, token)
+    // }
     const getToken = () => uni.getStorageSync(TOKEN_STORAGE_KEY)
 
     const userInfo = reactive<UserInfo>({
