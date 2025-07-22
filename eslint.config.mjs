@@ -9,7 +9,7 @@ export default antfu({
     'dist*',
     '**/*.md',
     '**/*.d.ts',
-    'zhengwu', // 前端打包目录
+    'dist', // 前端打包目录
   ],
   rules: {
     'style/semi': ['error', 'never'],
