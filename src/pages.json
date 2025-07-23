@@ -5,8 +5,48 @@
       "style": {
         "navigationBarTitleText": "uni-app"
       }
+    },
+    {
+      "path": "pages/settings/SettingsPage",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/me/MePage",
+      "style": {
+        "navigationStyle": "custom"
+      }
     }
   ],
+  "tabBar": {
+    "color": "#737380",
+    "selectedColor": "#0084CF",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "iconWidth": "18px",
+    "list": [
+      {
+        "pagePath": "pages/home/HomePage",
+        "iconPath": "static/images/enterprise.png",
+        "selectedIconPath": "static/images/enterprise-select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/settings/SettingsPage",
+        "iconPath": "static/images/requirements.png",
+        "selectedIconPath": "static/images/requirements-select.png",
+        "text": "设置"
+      },
+      {
+        "pagePath": "pages/me/MePage",
+        "iconPath": "static/images/me.png",
+        "selectedIconPath": "static/images/me-select.png",
+        "text": "我的"
+      }
+    ]
+  },
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
