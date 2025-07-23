@@ -3,14 +3,11 @@
     {
       "path": "pages/home/HomePage",
       "style": {
-        "navigationBarTitleText": "uni-app"
+        "navigationStyle": "custom"
       }
     },
     {
-      "path": "pages/settings/SettingsPage",
-      "style": {
-        "navigationStyle": "custom"
-      }
+      "path": "pages/settings/SettingsPage"
     },
     {
       "path": "pages/me/MePage",
