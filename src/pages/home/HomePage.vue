@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { useNavbarInfo } from '@/hooks/useSystemInfo'
+import { useNavbarInfo } from '@/hooks/useNavbarInfo'
 import CustomNavbar from '../CustomNavbar.vue'
 
 const { navBarHeight } = useNavbarInfo()

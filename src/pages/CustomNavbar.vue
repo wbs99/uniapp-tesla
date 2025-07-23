@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import { useNavbarInfo } from '@/hooks/useSystemInfo'
+import { useNavbarInfo } from '@/hooks/useNavbarInfo'
 
 interface Props {
   title?: string
