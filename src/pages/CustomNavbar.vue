@@ -2,6 +2,7 @@
   <!-- 外层：固定定位 + 背景色 -->
   <view
     class="fixed top-0 left-0 right-0 z-50 bg-purple-500"
+    :class="[isFixed ? 'fixed' : 'relative']"
     :style="{ height: `${navBarHeight}px`, paddingTop: `${statusBarHeight}px` }"
   >
     <!-- 内容区：高度 = 导航栏 - 状态栏 -->
@@ -27,15 +28,17 @@
 </template>
 
 <script setup lang="ts">
-import { useNavbarInfo } from '@/hooks/useNavbarInfo'
+import { useNavbarInfo } from '@/hooks/useSystemInfo'
 
 interface Props {
   title?: string
   showBack?: boolean
+  isFixed?: boolean
 }
 withDefaults(defineProps<Props>(), {
-  title: '',
+  title: '标题',
   showBack: false,
+  isFixed: true
 })
 
 const { navBarHeight, statusBarHeight } = useNavbarInfo()

@@ -1,5 +1,7 @@
 # 开发
 
+对于 375px 的手机，2rpx = 1px
+
 1. 安装依赖
 ```bash
 rm -rf node_modules pnpm-lock.yaml
